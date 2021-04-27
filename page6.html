@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+th {
+  text-align: left;
+}
+th, td {
+  padding: 15px;
+}
+#t01 {
+  width: 100%;
+  background-color: #f1f1c1;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+        </style>
+    </head>
+<body>
+
+
+    <p>
+        The table tag defines an HTML table.
+
+            Each table row is defined with a tr tag. Each table header is defined with a th tag. Each table data/cell is defined with a <td> tag.
+            
+            By default, the text in th elements are bold and centered.
+            
+            By default, the text in td elements are regular and left-aligned. 
+    </p>
+
+<hr>
+<br>
+
+<h2>Basic HTML Table</h2>
+<br>
+<table style="width:100%">
+    <caption>Monthly savings</caption>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<hr>
+
+<table id="t01">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+  </table>
+  <div class="footer">
+    <a href="page5.html">Back</a>
+    <a href="page7.html">Next</a>
+</div>
+</body>
+</html>
